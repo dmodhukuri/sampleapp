@@ -7,6 +7,3 @@ PASSWORD=${RANDOM}$(date +%s%N)${SPECCHAR}
 useradd -m ${USER_NAME}
 echo ${PASSWORD} | passwd --stdin ${USER_NAME}
 echo "Sucessfully Created user in webserver ${USER_NAME} with password as ${PASSWORD} in users list."
-echo "Sucessfully Created user in webserver ${USER_NAME} with password as ${PASSWORD} in users list in app servers."
-echo "Sucessfully Created user in webserver ${USER_NAME} with password as ${PASSWORD} in users list in db servers."
-echo "Sucessfully Created user in webserver ${USER_NAME} with password as ${PASSWORD} in users list in load balencer."
