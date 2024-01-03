@@ -8,3 +8,4 @@ useradd -m ${USER_NAME}
 echo ${PASSWORD} | passwd --stdin ${USER_NAME}
 echo "Sucessfully Created user in webserver ${USER_NAME} with password as ${PASSWORD} in users list."
 fjdskgfn sd.nsdgfsd gndsjgnds 
+dfadsgdf g
